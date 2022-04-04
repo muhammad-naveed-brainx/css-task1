@@ -1,3 +1,70 @@
 * {
     box-sizing: border-box;
-}
+  }
+  
+  .container {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    width: 80%;
+    margin:auto;
+  }
+  
+  /* Header/Blog Title */
+  .top {
+    font-family: 'Montserrat', sans-serif;
+        color: #262525;
+        padding: 30px;
+        text-align: center;
+        background: white;
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 1.2px;
+  }
+  
+  hr {
+    width: 45px;
+    height: 5px;
+    margin: 18px 58px 32px 2px;
+    border-radius: 2px;
+    background-color: #fe0000;
+    margin: auto;
+  }
+
+  .text1 {
+    width: 1036px;
+    height: 67px;
+    margin: auto;
+   opacity: 0.8;
+   padding-bottom: 40px;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.56;
+   letter-spacing: normal;
+   text-align: center;
+   color: rgba(38, 37, 37, 0.8);
+  }
+  .row {
+    width: 100%;
+    height: auto;
+  }
+
+  .column {
+    display: inline-block;
+    padding: 20px 10px;
+    width: 24%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #262525;
+  }
