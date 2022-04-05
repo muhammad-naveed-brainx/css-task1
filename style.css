@@ -181,6 +181,8 @@ top: -40px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+  height: 50vh;
+  overflow: auto;
 }
 .child {
   padding: 20px;
@@ -201,4 +203,7 @@ top: -40px;
   display: inline-block;
   padding: 30px 40px;
   text-align: justify;
+}
+.extra {
+  height: 20vh;
 }
