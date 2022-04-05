@@ -75,24 +75,25 @@
 
   /* Why percentage width and auto height doesnt work here */
   .section2 {
-      position: relative;
+      background-color: #ecdfdf;
+
   }
   .section2-text {
+    text-align: justify;
     line-height: 1.88;
     padding: 50px;
-    width: 800px;
-    height: 700px;
+    width: 52%;
+    height: 100%;
     display: inline-block;
-    
+    vertical-align: top;
   }
 
   .section2-mobile {
     display: inline-block;
-    position: absolute;
-    width: 800px;
-    height: 700px;
-    padding-left: 350px;
-    top: -100px;
+    width: 46%;
+    height: 100%;
+    padding-left: 220px;
+    margin-top: -120px;
 }
 img {
     max-width: 100%;
@@ -180,6 +181,7 @@ top: -40px;
   padding-top: 100px;
   margin: auto;
   display: flex;
+  align-content: space-between;
   flex-wrap: wrap;
   height: 50vh;
   overflow: auto;
