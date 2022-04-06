@@ -1,9 +1,12 @@
 * {
     box-sizing: border-box;
   }
+  body {
+    font-family: 'Montserrat', sans-serif;
+
+  }
   
   .container {
-    font-family: 'Montserrat', sans-serif;
     padding: 10px;
     width: 80%;
     margin:auto;
@@ -11,7 +14,6 @@
   
   /* Header/Blog Title */
   .top {
-    font-family: 'Montserrat', sans-serif;
         color: #262525;
         padding: 30px;
         text-align: center;
@@ -34,18 +36,11 @@
   }
 
   .text1 {
-    width: 1036px;
-    height: 67px;
     margin: auto;
    opacity: 0.8;
    padding-bottom: 40px;
-   font-family: 'Montserrat', sans-serif;
    font-size: 16px;
-   font-weight: normal;
-   font-stretch: normal;
-   font-style: normal;
    line-height: 1.56;
-   letter-spacing: normal;
    text-align: center;
    color: rgba(38, 37, 37, 0.8);
   }
@@ -61,10 +56,93 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.39;
     letter-spacing: 0.9px;
     text-align: center;
     color: #262525;
   }
+
+  .gradient {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 1.5px;
+    text-align: left;
+    padding: 2px 15px;
+    background-image: linear-gradient(to right, red , white);
+  }
+
+  /* Why percentage width and auto height doesnt work here */
+  .section2 {
+      position: relative;
+  }
+  .section2-text {
+    line-height: 1.88;
+    padding: 50px;
+    width: 800px;
+    height: 700px;
+    display: inline-block;
+    
+  }
+
+  .section2-mobile {
+    display: inline-block;
+    position: absolute;
+    width: 800px;
+    height: 700px;
+    padding-left: 350px;
+    top: -100px;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.gradient2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 1.5px;
+  text-align: right;
+  padding: 2px 15px;
+  background-image: linear-gradient(to left, red , white);
+}
+
+.mac-parent {
+  position: relative;
+  margin-bottom: 20vh;
+}
+.mac-text {
+line-height: 1.88;
+padding-left: 800px;
+display: inline-block;
+
+}
+
+.mac-image {
+display: block;
+position: absolute;
+width: 800px;
+height: 700px;
+padding-right: 350px;
+top: -40px;
+}
+
+.ipad-parent {
+  width: auto;
+
+}
+.ipad-text {
+  display: inline-block;
+  /* margin-top: 5px;
+  height: 100%; */
+  width: 50%;
+  line-height: 1.88;
+}
+.ipad-image {
+  display: inline-block;
+  width: 49%;
+  margin-top: -100px;
+}
