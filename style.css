@@ -29,7 +29,6 @@
   hr {
     width: 45px;
     height: 5px;
-    margin: 18px 58px 32px 2px;
     border-radius: 2px;
     background-color: #fe0000;
     margin: auto;
@@ -69,30 +68,32 @@
     line-height: 1.17;
     letter-spacing: 1.5px;
     text-align: left;
-    padding: 2px 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 200px;
     background-image: linear-gradient(to right, red , white);
   }
 
   /* Why percentage width and auto height doesnt work here */
   .section2 {
-      position: relative;
+      background-color: white;
   }
   .section2-text {
+    text-align: justify;
     line-height: 1.88;
-    padding: 50px;
-    width: 800px;
-    height: 700px;
+    padding: 80px 200px;
+    width: 52%;
+    height: 100%;
     display: inline-block;
-    
+    vertical-align: top;
   }
 
   .section2-mobile {
     display: inline-block;
-    position: absolute;
-    width: 800px;
-    height: 700px;
-    padding-left: 350px;
-    top: -100px;
+    width: 47.75%;
+    height: 100%;
+    padding-left: 200px;
+    margin-top: -170px;
 }
 img {
     max-width: 100%;
@@ -106,28 +107,32 @@ img {
   line-height: 1.17;
   letter-spacing: 1.5px;
   text-align: right;
-  padding: 2px 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 400px;
+  margin-top: -150px;
+
   background-image: linear-gradient(to left, red , white);
 }
 
 .mac-parent {
-  position: relative;
-  margin-bottom: 20vh;
+  margin-bottom: 5px;
 }
 .mac-text {
+  text-align: justify;
+  font-size: 16px;
 line-height: 1.88;
-padding-left: 800px;
+padding: 10px 120px 20px 20px;
+width: 43%;
 display: inline-block;
 
 }
 
 .mac-image {
-display: block;
-position: absolute;
-width: 800px;
-height: 700px;
-padding-right: 350px;
-top: -40px;
+display: inline-block;
+width: 55%;
+padding: 0px 200px 80px 120px;
+margin-top: -60px;
 }
 
 .ipad-parent {
@@ -135,9 +140,10 @@ top: -40px;
 
 }
 .ipad-text {
+  text-align: justify;
+  line-height: 1.88;
+  padding: 80px 200px;
   display: inline-block;
-  /* margin-top: 5px;
-  height: 100%; */
   vertical-align: top;
   width: 50%;
   line-height: 1.88;
@@ -145,13 +151,15 @@ top: -40px;
 .ipad-image {
   display: inline-block;
   width: 49%;
-  margin-top: -100px;
+  margin-top: -200px;
+  padding: 0px 150px 5px 20px;
 }
 
 /* Section 3 */
 
 .parent-section3 {
   background-color: #262525;
+
 }
 .text-red {
   font-size: 24px;
@@ -178,14 +186,19 @@ top: -40px;
   width: 80%;
   padding-top: 100px;
   margin: auto;
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+  height: 50vh;
+  overflow: auto;
 }
 .child {
-  background-color: white;
-  width: 49%;
-  display: inline-block;
-  margin-left: 10px;
-  margin-bottom: 10px;
+  padding: 20px;
+  width: 48%;
+  box-sizing: border-box;
   border-radius: 10px;
+  background-color: white;
+  margin: 10px;
 }
 .child-icon {
   width: 25%;
@@ -194,8 +207,12 @@ top: -40px;
   padding: 40px 30px;
 }
 .child-text {
+  line-height: 1.5;
   width: 74%;
   display: inline-block;
   padding: 30px 40px;
   text-align: justify;
+}
+.extra {
+  height: 20vh;
 }
